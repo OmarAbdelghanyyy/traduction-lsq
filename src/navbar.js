@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './Navbar.css';
 import SearchIcon from './search.svg';
+import { Link } from "react-router-dom";
 
 class Navbar extends Component{
   
@@ -12,10 +13,13 @@ render(){
         <div id ="align-right">
         <ul id="navbar" className="#navbarative">
             <li>
-                <a href="/Contact" id="navlink">Contact</a>
+                <Link to="/home">Home</Link>
             </li>
             <li>
-                <a href="/createaccount" id="navlink">Create an Account</a>
+               <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+                <Link to="/createaccount">Create an Account</Link>
             </li>
           
             
@@ -27,6 +31,7 @@ render(){
         />
         <img
         src={SearchIcon}
+        alt='search'
         />
 
     </div>

@@ -1,14 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBook, faCircleInfo,faBuildingColumns,faHandsAslInterpreting} from '@fortawesome/free-solid-svg-icons'
-import './App.css';
-import Navbar from './Navbar.js';
+import '../styles/App.css';
+import Navbar from '../Navbar.js';
 
 import {Grid} from '@mui/material/';
 
 function home() {
   return (
     <div className="home">
-  <Navbar/>
     <div className="introduction">
     <h2>Welcome to our website</h2>
     <div className='phrase'>
@@ -32,10 +31,10 @@ function home() {
            
         </Grid>
         <Grid className="skillItem">
-            <span className="fa-stack fa-2x">
-            <a className = "no-style" href='#'> <FontAwesomeIcon icon={faBuildingColumns} /></a>
-            </span>
-            <a className = "no-style" href='#'><p>Ressources</p></a> 
+      <span className="fa-stack fa-2x">
+      <a className = "no-style" href='#'> <FontAwesomeIcon icon={faBuildingColumns} /></a>
+        </span>
+        <a className = "no-style" href='#'><p>Ressources</p></a> 
             
         </Grid>
         <Grid className="skillItem">
@@ -46,7 +45,7 @@ function home() {
            
         </Grid>
         <Grid className="skillItem">
-            <span className="fa-stack fa-2x">
+        <span className="fa-stack fa-2x">
             <a className = "no-style" href='#'> <FontAwesomeIcon icon={faCircleInfo} /></a>
             </span>
             <a className = "no-style" href='#'><p>About us</p></a> 
@@ -58,10 +57,10 @@ function home() {
      </Grid>
     </div>
     </div>
-    
- );
+
+);
 }
   
-
+  
 
 export default home;

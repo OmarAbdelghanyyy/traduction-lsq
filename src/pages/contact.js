@@ -1,15 +1,14 @@
 import React, { useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
-import '../Styles/contact.css'
+import '../styles/contact.css'
 
 //TODO: create a css file this component
 
-const SERVICE_ID = 'service_9kzaxgz';
+const Contact = () => {
+  const SERVICE_ID = 'service_9kzaxgz';
 const TEMPLATE_ID = "template_b1jr8se";
 const USER_ID = "MBebflZ6xCJD_L1kK";
-
-const Contact = () => {
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -43,9 +42,8 @@ const Contact = () => {
   };
 
   return (
-    <>
     <div className='Contact'>
-      <h2>Contact Me</h2>
+      <h2>Contact Us</h2>
       <form ref={form} onSubmit={sendEmail}>
         <fieldset>
         <label>Name</label>
@@ -61,7 +59,7 @@ const Contact = () => {
 
     </div>
 
-    </>
+  
   );
 };
 export default Contact;
