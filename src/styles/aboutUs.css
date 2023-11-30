@@ -1,0 +1,108 @@
+
+
+.aboutUs{
+    background-color: #e6d7ca;
+    position: absolute;
+  
+}
+
+.intro{
+    position: absolute;
+    width: 200px;
+    right: -500px;
+    background-color: #e6d7ca;
+    top: 200px;
+    flex-direction: column;
+   
+}  
+.aboutus_text{
+    position: absolute;
+    font-size: large;
+    width: 400px;
+    background-color: #e6d7ca;
+    top: 70px;
+    right: -300px;
+    line-height: 50px;
+    float: right;
+    font-family: 'Courier New';
+} 
+.title{
+    position: absolute;
+    right: -900px;
+    top:100px;
+    background-color: #e6d7ca;
+    flex-direction: row;
+}
+.omarDiv{
+    background-color: #fefefe;
+    width: 200px;
+    height: 300px;
+    flex-direction: row;
+    position: absolute;
+    right: 50px;
+    border-radius: 20%;
+ 
+}
+.omarDiv p{
+    padding-top: 200px;
+    padding-left: 25px;
+}
+
+.jennyDiv{
+    background-color: #fefefe;
+    width: 200px;
+    height: 300px;
+    flex-direction: row;
+    position: absolute;
+    left: 50px;
+    border-radius: 20%;
+ 
+}
+.jennyDiv p{
+    padding-top: 200px;
+    padding-left: 25px;
+}
+.rayaneDiv{
+    background-color: #fefefe;
+    width: 200px;
+    height: 300px;
+    flex-direction: row;
+    position: absolute;
+    left: 50px;
+    bottom: -650px;
+    border-radius: 20%;
+ 
+}
+.rayaneDiv p{
+    padding-top: 200px;
+    padding-left: 25px;
+}
+.saadDiv{
+    background-color: #fefefe;
+    width: 200px;
+    height: 300px;
+    flex-direction: row;
+    position: absolute;
+    right: 50px;
+    bottom: -650px;
+    border-radius: 20%;
+ 
+}
+.saadDiv p{
+    padding-top: 200px;
+    padding-left: 25px;
+}
+.members{
+    height: fit-content;
+    width: fit-content;
+    background-color: #e6d7ca;
+
+}
+
+.footer-about{
+    position: absolute;
+    top:900px;
+}
+.title h2{
+    font-family: IBM Plex sans;
+}

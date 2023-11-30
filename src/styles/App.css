@@ -1,12 +1,10 @@
-
-
 .fa-brands{
   size: 90px;
 }
 .home{
   align-items: center;
   width: 100%;
-  
+  background-color: #9f7f42;
 }
 .introduction{
   width: 100%;
@@ -16,7 +14,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: whitesmoke;
+  background-color: #e6d7ca;
   color: black;
 
 }
@@ -61,18 +59,56 @@ p:not(description)
 .no-style p, a {
   text-decoration: none   ;
 }
-#menu{
+.menu{
   list-style: none;
   padding: 0 20px;
-  position: relative;
-}
-#fa-stack fa-2x{
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: white;
-  transition: 0.3s ease-in-out;   
+  position: absolute;
+  top: 700px;
 }
 #navbar li a:hover{
    color:grey;
+}
+
+li{list-style: none;
+padding: 0 20px;
+position: relative;
+float: right;}
+
+#phrase description{
+  color: #000;
+
+  
+}
+p{
+  color: #000;
+ 
+}
+.description{
+  font-size: 30px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.home_title{
+  color: #2a3087;
+  font-family: 'Libra Serif Modern', sans-serif;
+
+  
+}
+
+
+.menu-item{
+  color: #9f7f42;
+  font-family: Verdana;
+}
+.logo{
+  background-color: #e6d7ca;
+}
+
+.introduction .home_title{
+  font-size: 90px;
+}
+.blue_logo{
+  position: absolute;
+  left:1500px
 }

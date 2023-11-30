@@ -1,0 +1,158 @@
+.ressources-paragraph{
+    position: absolute;
+    width: 500px;
+    left: 750px;
+    font-size: larger;
+    font-weight: 300;
+}
+.searchbar img{
+    position: absolute;
+   left: 1200px;
+   top: 520px;
+   width:450px;
+
+}
+.dico{
+    position: absolute;
+    width: 250px;
+    left: 500px;
+    top:600px;
+    height: 250px; 
+}
+.dico img{
+    width: 250px;
+    left: 500px;
+    top:600px;
+    height: 250px;
+
+}
+.lexique{
+    position: absolute;
+    width: 250px;
+    left: 800px;
+    height: 250px;
+    top:600px;
+}
+.lexique img{
+    
+    width: 250px;
+    left: 800px;
+    height: 250px;
+    top:600px;
+
+}
+.lsq-science{
+    position: absolute;
+    width: 230px;
+    top:600px;
+    left: 1100px;
+}
+.lsq-science img{
+    width: 230px;
+    top:600px;
+    left: 1100px;
+}
+.lsq-math{
+    position: absolute;
+    width: 250px;
+    top: 600px;
+    left: 1350px;
+    height: 250px;
+}
+.lsq-math img{
+    width: 250px;
+    top: 600px;
+    left: 1350px;
+    height: 250px;
+
+}
+.apprendre{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 850px;
+    left: 850px;
+}
+.apprendre img{
+    width: 250px;
+    height: 250px;
+    top: 900px;
+    left: 850px;
+}
+.intiation{
+    position: absolute;
+    width: 250px;
+    top: 850px;
+    height: 250px;
+    left: 1100px;
+}
+.intiation img{
+    width: 250px;
+    top: 900px;
+    height: 250px;
+    left: 1100px;
+}
+.lien-site{
+    position: absolute;
+    color: black;
+    left: 80px;
+    margin-top: 0;
+   padding: 0;
+    padding-bottom: 0px;
+
+}
+.link-container{
+    position: absolute;
+    width: 250px;
+    padding-bottom: 50px;
+    top:200px
+}
+.link-container-lex{
+    position: absolute;
+    width: 250px;
+    padding-bottom: 50px;
+    top:210px
+}
+.link-container-science{
+    position: absolute;
+    width: 250px;
+    padding-bottom: 50px;
+    top:200px;
+    align-items: center;
+    right: 0px;
+}
+.link-container-math{
+    position: absolute;
+    width: 250px;
+    padding-bottom: 50px;
+    top:200px;
+    align-items: center;
+    right: 15px;
+}
+.link-container-apprendre{
+        position: absolute;
+        width: 250px;
+        padding-bottom: 50px;
+        top:215px;
+        align-items: center;
+        right: 0px;
+    
+}
+.link-container-intiation{
+        position: absolute;
+        width: 250px;
+        padding-bottom: 50px;
+        top:205px;
+        align-items: center;
+        right: 7px;
+    
+}
+.ressources-footer-footer{
+    position: absolute;
+    bottom: -200px;
+   left: 100px;
+
+}
+.ressources-footer-footer a {
+    color: black;
+}

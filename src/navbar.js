@@ -16,26 +16,16 @@ render(){
                 <Link to="/home">Home</Link>
             </li>
             <li>
-               <Link to="/contact">Contact</Link>
+               <Link to="/contact">Contactez nous</Link>
             </li>
             <li>
-                <Link to="/createaccount">Create an Account</Link>
+                <Link to="/createaccount">Créer un Compte</Link>
             </li>
           
             
         </ul>
         </div>
-    <div className="search">
-        <input
-        placeholder="search our website"
-        />
-        <img
-        src={SearchIcon}
-        alt='search'
-        />
 
-    </div>
-      
 
     </div>
   

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http s://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionnaire</title>
+    <link rel="stylesheet" href="buton.css">
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="Collapsable.css">
+    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="titles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li><a href="#home"><i class="fas fa-home"></i> Accueil</a></li>
+            <li><a href="#traduction"><i class="fas fa-american-sign-language-interpreting"></i> Traduction</a></li>
+            <li><a href="#ressources"><i class="fas fa-university"></i> Ressources</a></li>
+            <li><a href="#about"><i class="fa fa-info-circle"></i> About Us</a></li>
+        </ul>
+    </nav>
+    <div class="centrepage">
+        <div class="content">
+            <h2>Dictionnaire</h2>
+            <p>Expand and collapse sections for easy navigation.</p>
+        </div>
+    </div>
+    
+    <div class="collapsible">
+        <button class="collapsible-btn">Definition
+            <i class="fas fa-chevron-circle-down"></i>
+        </button>
+        
+        <div class="collapsible-content">
+        <form>
+            <div class="input-section">
+                <label for="word">Le Mot:</label>
+                <input type="text" id="word">
+            </div>
+            <div  class="video-section">
+                <label for="lsq-video">Definition en LSQ:</label>
+                <div id="video">
+                    <div id="loader"></div>
+                </div>
+            </div>
+        </form>
+            <div class="button">
+                <button type="submit" id="define-button" onclick="searchLSQVideo()">Définir</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="collapsible">
+        <button class="collapsible-btn">Ajouter un mot
+            <i class="fas fa-chevron-circle-down"></i>
+        </button>
+        <div class="collapsible-content">
+            <div class="input-section">
+                <label for="lsq-word">Le Mot:</label>
+                <input type="text" id="lsq-word">
+            </div>
+            <div class="input-section">
+                <label for="definition">Definition:</label>
+                <input type="text" id="definition">
+            </div>
+            <div class="input-section">
+                <label for="lsq-entry">Traduction en LSQ:</label>
+                <input type="text" id="lsq-entry">
+            </div>
+            <div class="button">
+                <button type="button" id="add-word-button">Ajouter</button>
+            </div> 
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1/firebase.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <script src="Javascript.js"></script>

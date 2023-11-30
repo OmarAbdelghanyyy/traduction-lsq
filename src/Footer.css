@@ -1,0 +1,44 @@
+.footer-links{
+display: block;
+padding: 12px;
+color:black;
+font-family: 'Courier New';
+}
+.companie-footer{
+    position: absolute;
+    left: 900px;
+    width:500px;
+}
+.support-footer{
+    position: absolute  ;
+    left: 1200px;
+    width: 500px;
+}
+.ressources-footer{
+    position: absolute;
+    left: 600px;
+    width: 500px;
+}
+.copyright{
+    position: absolute;
+    padding-top: 150px;
+    left: 800px;
+    width: 500px;
+    padding-bottom: 50px;
+}
+.companie-footer a{
+    display: block;
+    padding: 12px;
+}
+.ressources-footer a, .support-footer a  {
+    display: block;
+    padding: 6px;
+}
+.footer{
+    position: absolute;
+    bottom: 10;
+    background-color: brown;
+}
+.ressources-footer h3,.companie-footer h3,.support-footer h3,.copyright{
+    font-family: 'Courier New';
+}
